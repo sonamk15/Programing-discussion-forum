@@ -1,9 +1,9 @@
-# TODO App
+# Programing-discussion-forum
 
 ## Project setup
 
-1. Clone the repo `git clone https://github.com/sonamk15/Todo-App.git`.
-2. `cd Todo-App` 
+1. Clone the repo `git clone https://github.com/sonamk15 Programing-discussion-forum`.
+2. `cd Programing-discussion-forum` 
 3. Install dependencies `npm install`
 
 ## DB setup
@@ -11,9 +11,9 @@
 1. Install postgress: -
   `sudo apt-get update && sudo apt install postgresql postgresql-contrib`
 2. Open postgres server `sudo -u postgres psql`
-3. Create database `create database todo_app`
+3. Create database `create database Programing-discussion-forum`
 4. Set postgres password `ALTER USER postgres WITH PASSWORD 'myPassword'`
-5. Change default owner role `ALTER DATABASE todo_app OWNER TO postgres`
+5. Change default owner role `ALTER DATABASE Programing-discussion-forum OWNER TO postgres`
 
 ## environment variable
 1. Create `.env` file at root folder 
