@@ -1,13 +1,12 @@
 {
-  "name": "todo-app",
+  "name": "programming-discussion-forum",
   "version": "1.0.0",
-  "description": "Simpel todo-app.",
+  "description": "Web services for programming discussion forum.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "sp",
+  "author": "Sonam",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
