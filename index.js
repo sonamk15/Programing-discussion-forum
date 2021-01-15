@@ -13,9 +13,7 @@ app.use(morgan('dev'));
 
 app.use('/swagger-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.use('/api', require('./lib/routes/users').router);
-app.use('/api', require('./lib/routes/queries').router);
-app.use('/api', require('./lib/routes/comments').router);
+require('./lib/routes')(app);
 
 app.listen(port, () =>
   console.log(`listening on port: ${port}`)
